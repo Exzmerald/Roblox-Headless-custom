@@ -1,16 +1,21 @@
-# Basic Pros
--Physics are still calculated normally using your fps, usually ~60 fps unless you unlock your fps.\
-\
--No rendering.\
-\
--No hassle with raknet, all networking is already done for you because it's a real game client.\
-\
--Compatible with multiple game clients.\
-\
--Exploits work with it, allowing for easy bots and autofarming that use little to no resources.
-# Basic Cons
--No anti-afk is implemented, user will timeout from inactivity, an exploit and a script with antiafk for example infinite yield is required.\
-\
--Unintentionally has the ability to hide the process from task manager, seems to be rare.\
-\
--In order to unhide the game client window(s) you have to use something like process hacker to edit window visibilty or manually restart/terminate the game client.
+# Roblox-Headless
+
+Roblox-Headless is a fork of [rbx-silent](https://github.com/toastering/rbxsilent) which aims to provide more functionality from the original.
+
+## Changes
+
+1. Added a keybind system to hide/unhide the clients.
+2. Added a function to kill all running clients.
+3. Automatically changes the clients process priority to low.
+
+## Installation
+
+Download the exe from the [Releases](https://github.com/sebi12391/Roblox-Headless/releases) page and run it.
+
+## Usage
+
+After running Roblox-Headless, it will default to hiding all running instances of the Roblox client.
+
+Rshift = hide/unhide all clients.\
+END = Close all running instances and the program.
+
