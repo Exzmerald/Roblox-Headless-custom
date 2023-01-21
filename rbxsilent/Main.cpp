@@ -31,7 +31,9 @@ static BOOL CALLBACK windcallback(HWND hWnd, LPARAM lparam) {
     if (lparam == 0) {
 
         if (title == "Roblox" && IsWindowVisible(hWnd)) {
-            cout << "Doin Stuff" << endl;
+            cout << "Wait for 30 sec to inject your stuff" << endl;
+            Sleep(30000);
+            cout << "Doin stuff" << endl;
             system("wmic process where name='RobloxPlayerBeta.exe' CALL setpriority 64");
             //system("PowerShell Get-Process RobloxPlayerBeta | Select-Object ProcessorAffinity"); //seems to not work (Fix)
             //system("PowerShell \"$Process = Get - Process RobloxPlayerBeta; $Process.ProcessorAffinity = 13\""); //seems to not work (Fix)
