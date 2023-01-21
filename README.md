@@ -19,3 +19,4 @@ After running Roblox-Headless, it will default to hiding all running instances o
 Rshift = hide/unhide all clients.\
 END = Close all running instances and the program.
 
+I am not good at github or coding
