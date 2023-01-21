@@ -1,6 +1,6 @@
-# Roblox-Headless
+# Roblox-Headless-Custom
 
-Roblox-Headless is a fork of [rbx-silent](https://github.com/toastering/rbxsilent) which aims to provide more functionality from the original.
+Roblox-Headless is a fork of [rbx-silent](https://github.com/toastering/rbxsilent) which aims to provide more functionality from the original. And custom made by Exz to fit his necesities
 
 ## Changes
 
@@ -8,9 +8,9 @@ Roblox-Headless is a fork of [rbx-silent](https://github.com/toastering/rbxsilen
 2. Added a function to kill all running clients.
 3. Automatically changes the clients process priority to low.
 
-## Installation
+## Custom Changes
 
-Download the exe from the [Releases](https://github.com/sebi12391/Roblox-Headless/releases) page and run it.
+1.Delayed the sliencer of Roblox to inject with enough time, around 30 sec of delay (WIP)
 
 ## Usage
 
